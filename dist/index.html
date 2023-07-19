@@ -29,7 +29,7 @@
             <!-- Menu button -->
             <button
               id="menu"
-              class="text-white transition-colors focus:outline-none focus-visible:ring-4 hover:text-gray-500"
+              class="text-white transition-colors focus:outline-none focus-visible:ring-4 hover:text-gray-900"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -54,5 +54,37 @@
         </div>
       </div>
     </header>
+    <section class="flex flex-col sm:flex-row">
+      <!-- First div takes 1/4 of the screen on large screens and 2/3 of the screen on small screens -->
+      <div
+        class="lg:flex-1 sm:flex-2/3 bg-[#2B534F] lg:h-[50vh] md:h-[35vh] p-10 lg:p-20 md:p-10 sm:py-10 text-white font-averta"
+      >
+        <!-- Content in the first div -->
+        <p
+          class="flex-wrap text-2xl font-bold leading-tight xl:ml-20 sm:ml-15 xl:text-4xl lg:text-3xl"
+        >
+          KMD Investments Ltd. established in 2019 is a Private Investments
+          company with investments in Management Consultancy, Real Estate and
+          Hospitality sectors
+        </p>
+
+        <!-- Button in the first div -->
+        <button
+          class="md:px-5 sm:px-3 md:py-2 sm:py-1 mt-10 xl:ml-20 lg:ml-15 sm:ml-15 text-base font-normal leading-7 tracking-tight uppercase border-[#B68066] border-2 hover:border-white"
+        >
+          Learn More
+        </button>
+      </div>
+
+      <!-- Second div takes 3/4 of the screen on large screens and 1/3 of the screen on small screens -->
+      <div
+        class="lg:flex-3 sm:flex-1/3 p-5 lg:p-[20px] border-b-2 border-[#C3C8CF] flex items-center justify-center"
+      >
+        <!-- Green logo with second div -->
+        <img src="../images/KMD_Logo_Green 1.png" alt="KMD Logo Green" />
+      </div>
+    </section>
+
+    <section class="min-h-screen bg-white"></section>
   </body>
 </html>
