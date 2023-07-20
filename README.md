@@ -1,8 +1,8 @@
 # KMD Investments Prototype
 
-## This is a simple web project that consists of HTML, CSS, and JavaScript files. It utilizes [Tailwind CSS](https://tailwindcss.com/) for styling.
+This is a simple web project that consists of HTML, CSS, and JavaScript files. It utilizes [Tailwind CSS](https://tailwindcss.com/) for styling.
 
-### Getting Started
+## Getting Started
 
 To get started with this project, follow these steps :
 
@@ -15,7 +15,7 @@ To get started with this project, follow these steps :
 npm install
 ```
 
-### Usage
+## Usage
 
 1. When you are ready to preview your web project, build the files using:
 
