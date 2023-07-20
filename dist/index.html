@@ -34,13 +34,49 @@
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
-                class="fill-current w-9"
+                class="transition-transform transform rotate-0 fill-current w-9"
+                id="menu-icon"
               >
                 <path
                   d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"
                 ></path>
               </svg>
             </button>
+          </div>
+          <div
+            role="menubar"
+            class="float-right md:w-[20vw] w-[25vw] mx-auto flex-col items-center hidden gap-4 lg:p-6 p-4 text-xl text-center shadow-xl top-16 bg-slate-300 bg-opacity-90 sm:mr-5 mr-0 font-semibold"
+          >
+            <a
+              role="menuitem"
+              href="#"
+              class="px-6 py-1 text-black hover:text-gray-500"
+              >Home</a
+            >
+            <a
+              role="menuitem"
+              href="#"
+              class="px-6 py-1 text-black hover:text-gray-500"
+              >About</a
+            >
+            <a
+              role="menuitem"
+              href="#"
+              class="px-6 py-1 text-black hover:text-gray-500"
+              >News</a
+            >
+            <a
+              role="menuitem"
+              href="#"
+              class="px-6 py-1 text-black hover:text-gray-500"
+              >Careers</a
+            >
+            <a
+              role="menuitem"
+              href="#"
+              class="px-6 py-1 text-black hover:text-gray-500"
+              >Contact</a
+            >
           </div>
         </nav>
         <!-- Text overlay on the background image -->
@@ -180,7 +216,6 @@
     </div>
 
     <!-- Footer -->
-
     <footer
       class="xl:px-20 px-10 py-20 pb-5 bg-[#13253E] text-[#D1D5DB] font-Averta"
     >
@@ -310,9 +345,11 @@
                 name="email"
                 id="email"
                 placeholder="Enter your email"
-                class="w-3/5 p-2 sm:w-3/4 lg:w-2/3 hover:border-teal-600 hover:border-1"
+                class="w-3/5 p-2 text-black sm:w-3/4 lg:w-2/3 hover:border-teal-600 hover:border-1"
               />
               <button
+                type="button"
+                id="button"
                 class="p-2 lg:w-1/4 font-semibold bg-[#2B534F] text-white hover:text-slate-400"
               >
                 Subscribe
@@ -328,5 +365,6 @@
         &copy; 2022 KMD Investments Ltd. All rights reserved.
       </div>
     </footer>
+    <script src="../dist/script.js"></script>
   </body>
 </html>
